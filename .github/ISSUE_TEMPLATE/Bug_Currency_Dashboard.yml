@@ -2,7 +2,7 @@ name: Bug for OSE Dashboard
 title: "[BUG]: "
 description: "Bug reporting for OSE dashboard"
 labels: "dashboard bug"
-projects: "ppc64le/1"
+projects: "s390x/1"
 assignees: "ICH"
 body:
   - type: markdown
