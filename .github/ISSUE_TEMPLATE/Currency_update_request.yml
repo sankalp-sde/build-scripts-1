@@ -2,7 +2,7 @@ name: OSE Update Request
 title: "[OSE_Update]: "
 description: "Request to fix, or update a package in the OSE Portal"
 labels: "update OSE"
-projects: "ppc64le/1"
+projects: "s390x/1"
 assignees: "ICH"
 body:
   - type: markdown
@@ -14,14 +14,14 @@ body:
     attributes:
       label: Package Name
       description: >-
-        The package name you want to be supported for Linux on Power e.g. redis, elasticsearch
+        The package name you want to be supported for Linux on Z e.g. redis, elasticsearch
     validations:
       required: true
   - type: input
     id: version 
     attributes:
       label: Package Version
-      description: Specific version of package want to be supported for Linux on Power
+      description: Specific version of package want to be supported for Linux on Z
     validations:
       required: false
   - type: input
